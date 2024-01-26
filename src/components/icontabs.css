@@ -1,0 +1,30 @@
+.icon-tabs-wrapper {
+  position: absolute;
+  right: 25px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me-button {
+  color: white;
+  transform: rotate(90deg);
+  position: relative;
+  top: 52px;
+  right: 19px;
+  padding: 15px 30px;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .icon-tabs-wrapper {
+    right: -20px;
+  }
+
+  .contact-me-button {
+    top: 44px;
+    right: -18px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}

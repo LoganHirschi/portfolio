@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #D4D6DA;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.main-wrapper {
+    background-color: white;
+    height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    body {
+        margin-right: 20px;
+    }
+}

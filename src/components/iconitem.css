@@ -1,0 +1,17 @@
+.icon-wrapper {
+  padding: 19px;
+  width: 28px;
+  text-align: center;
+  position: relative;
+  margin-top: 2px;
+  font-size: 28px;
+  left: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  .icon-wrapper {
+    font-size: 20px;
+    padding: 10px;
+    left: 60px;
+  }
+}
