@@ -3,30 +3,64 @@
   width: 100%;
   background-color: white;
   margin-top: 2px;
-  height: 140px;
+  height: 142px;
+}
+
+.nav-title {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.nav-subtitle {
+  text-align: center;
+  font-size: 18px;
 }
 
 .nav-item-wrapper:hover {
   cursor: pointer;
+  background-color: rgb(212, 212, 212);
 }
 
 .nav-item-active {
-  background-color: rgb(255, 199, 0);
+  background-color: #a12222;
+  color: white;
+}
+
+.nav-item-active:hover {
+  background-color: #a12222 !important;
 }
 
 .nav-arrow {
-  background: #ffc700;
+  background: #a12222;
   width: 50px;
   height: 50px;
   transform: rotate(45deg);
   margin-top: 50px;
   position: absolute;
   right: -20px;
+  box-shadow: 7px 0 5px -5px #888;
+  border-radius: 5px;
 }
 
 
 @media only screen and (max-width: 750px) {
   .nav-item-wrapper {
     height: 160px;
+  }
+  .nav-arrow {
+    width: 35px;
+    height: 35px;
+    margin-top: 65px;
+    right: -15px;
+  }
+
+  .nav-title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .nav-subtitle {
+    font-size: 16px;
   }
 }

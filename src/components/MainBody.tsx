@@ -2,11 +2,10 @@ import React from "react";
 import globalColors from "../globals/global";
 import "./mainbody.css";
 
-const MainBody = () => {
-  const [location, setLocation] = React.useState("index");
+const MainBody = ( Props: any ) => {
   return (
     <div className="main-wrapper" style={{backgroundColor: globalColors.mainPageBackgroundColor}} >
-      <div style={{marginLeft: "200px"}}>{location}</div>
+      <div style={{marginLeft: "200px"}}>{Props.page}</div>
     </div>
   );
 };

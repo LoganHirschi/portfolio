@@ -1,9 +1,27 @@
 .icon-tabs-wrapper {
   position: absolute;
-  right: 25px;
+  right: 10px;
   top: 50px;
   display: flex;
   flex-direction: column;
+}
+
+.icon {
+  padding: 10px;
+  width: 28px;
+  text-align: center;
+  position: relative;
+  margin-top: 2px;
+  font-size: 28px;
+  left: 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+.icon:hover {
+  cursor: pointer;
+  padding: 12px;
+  background-color: #c92a2a !important;
 }
 
 .contact-me-button {
@@ -12,7 +30,14 @@
   position: relative;
   top: 52px;
   right: 19px;
-  padding: 15px 30px;
+  border-radius: 5px;
+  padding: 15px 7px;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 
@@ -25,6 +50,12 @@
     top: 44px;
     right: -18px;
     font-size: 14px;
-    padding: 8px 20px;
+    padding: 16px 8px;
+  }
+
+  .icon {
+    font-size: 20px;
+    padding: 10px;
+    left: 60px;
   }
 }
