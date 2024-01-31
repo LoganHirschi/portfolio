@@ -5,7 +5,7 @@ import "./mainbody.css";
 const MainBody = ( Props: any ) => {
   return (
     <div className="main-wrapper" style={{backgroundColor: globalColors.mainPageBackgroundColor}} >
-      <div style={{marginLeft: "200px"}}>{Props.page}</div>
+      <div className="main-title">{Props.page}</div>
     </div>
   );
 };

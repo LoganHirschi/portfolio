@@ -54,6 +54,7 @@ const NavItem = ({
   return (
     <div className={`nav-item-wrapper ${isActive ? "nav-item-active" : ""}`}>
       <div className={`${isActive ? "nav-arrow" : ""}`}></div>
+      {/* <div className={`${isActive ? "arrow-right" : ""}`}></div> */}
       {getIcon()}
       <div className="nav-title">{name}</div>
       <div className="nav-subtitle">{subName}</div>

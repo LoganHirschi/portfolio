@@ -23,6 +23,7 @@
 }
 
 .nav-item-active {
+  transition: all 0.2s ease-in;
   background-color: #a12222;
   color: white;
 }
@@ -31,14 +32,23 @@
   background-color: #a12222 !important;
 }
 
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green;
+}
+
 .nav-arrow {
-  background: #a12222;
   width: 50px;
   height: 50px;
-  transform: rotate(45deg);
-  margin-top: 50px;
+  margin-top: 45px;
   position: absolute;
-  right: -20px;
+  transition: all 0.5s ease-in;
+  background: #a12222;
+  right: 10px;
+  transform: translate(30px, 0px) rotate(45deg);
   box-shadow: 7px 0 5px -5px #888;
   border-radius: 5px;
 }
@@ -52,7 +62,10 @@
     width: 35px;
     height: 35px;
     margin-top: 65px;
-    right: -15px;
+    transition: all 0.5s ease-in;
+    background: #a12222;
+    right: 15px;
+    transform: translate(30px, 0px) rotate(45deg);
   }
 
   .nav-title {

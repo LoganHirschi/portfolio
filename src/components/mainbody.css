@@ -1,0 +1,9 @@
+.main-title {
+  margin-left: 220px;
+}
+
+@media only screen and (max-width: 750px) {
+  .main-title {
+    margin-left: 120px;
+  }
+}
