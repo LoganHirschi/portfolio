@@ -3,16 +3,21 @@
 }
 
 body {
-    background-color: #D4D6DA;
+    background-color: #262626;
+    background-color: lightgray;
+    /* background-image: url('./assets/body-background1.jpg');
+    background-size: cover; */
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 100px;
 }
 
 .app-wrapper {
-    background-color: #f2f2e9;
     box-shadow: 0px 2px 5px 1px #888888;
-    height: 101vh;
+    height: 125vh;
+    background-image: url('./assets/wood-background.jpg');
+    background-image: url('./assets/brown-paper.jpg');
+    background-size: cover;
 }
 
 
@@ -23,7 +28,7 @@ body {
     }
 
     .app-wrapper {
-        height: 114vh;
+        height: 170vh;
     }
 
 }

@@ -9,7 +9,6 @@ function App() {
   const [location, setLocation] = React.useState("aboutMe");
 
   const findPage = (page: string) => {
-    console.log(page);
     setLocation(page);
   }
 
