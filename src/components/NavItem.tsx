@@ -1,10 +1,7 @@
-import React, { ReactElement } from "react";
-import "./navItem.css";
-import { FaUser } from "react-icons/fa";
-import { FaFolder } from "react-icons/fa";
-import { FaCamera } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
+import { ReactElement } from "react";
+import { FaCamera, FaFolder, FaPhone, FaUser } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
+import "./navItem.css";
 
 interface Props {
   title?: string;

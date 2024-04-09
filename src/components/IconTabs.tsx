@@ -1,11 +1,9 @@
-import React from "react";
+// import React from "react";
+import globalColors from "../globals/global";
 import "./icontabs.css";
-import globalColors from "../globals/global";"../globals/global"
-import IconItem from './IconItem'
-import { FaTwitter } from 'react-icons/fa';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+"../globals/global"
+// import IconItem from './IconItem'
+import { FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 
 

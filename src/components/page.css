@@ -5,6 +5,7 @@
   position: relative;
   top: 20px;
   padding-top: 40px;
+  padding-bottom: 40px;
   animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;

@@ -1,26 +1,25 @@
-import React, { ReactElement } from "react";
-import globalColors from "../globals/global";
+import { ReactElement } from "react";
+import AboutMe from './AboutMe';
+import ContactMe from './ContactMe';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
 import "./mainbody.css";
-import AboutMe from './AboutMe'
-import Resume from './Resume'
-import Portfolio from './Portfolio'
-import ContactMe from './ContactMe'
 
 const MainBody = ( Props: any ) => {
   console.log(Props.page);
   function returnBody(): ReactElement<any> {
     if(Props.page == "aboutMe") {
-      return <AboutMe />
+      return <AboutMe title="About Me" />
     }
     else if (Props.page == "resume") {
-      return <Resume />
+      return <Resume title="Resume" />
     }
     else if (Props.page == "projects") {
-      return <Portfolio />
+      return <Portfolio title="Portfolio" />
     }
     else {
       // Contact Me
-      return <ContactMe />
+      return <ContactMe title="Contact Me" />
     }
   }
   return (
